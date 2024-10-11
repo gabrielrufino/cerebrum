@@ -31,7 +31,6 @@ describe('LinearRegression', () => {
       .calculate()
 
     const prediction = regression.predict(6)
-    console.log({ prediction })
     expect(prediction).toBeCloseTo(12.2)
   })
 
