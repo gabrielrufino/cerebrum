@@ -9,10 +9,12 @@ on:
       - main
 
 jobs:
-  delivery:
-    name: Delivery
+  node-pkg-cd:
+    name: Node package CD
     runs-on: ubuntu-latest
     steps:
       - uses: gabrielrufino/check-ci@main
       - uses: actions/checkout@v4
-      - run: echo "Your delivery here"
+      - uses: gabrielrufino/node-pkg-cd@develop
+        with:
+          node-auth-token: ${{ secrets.NODE_AUTH_TOKEN }}
