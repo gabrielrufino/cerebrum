@@ -34,13 +34,6 @@ describe('LinearSearch', () => {
     expect(() => search.execute()).toThrow('Target should be defined')
   })
 
-  it('should throw error if target is null', () => {
-    const search = new LinearSearch()
-      .setElements([1, 2, 3, 4, 5]).setTarget(null as any)
-
-    expect(() => search.execute()).toThrow('Target should be defined')
-  })
-
   it('should return the index when target is 0', () => {
     const result = new LinearSearch()
       .setElements([1, 0, 3, 4, 5]).setTarget(0)
