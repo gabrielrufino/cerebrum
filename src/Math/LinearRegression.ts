@@ -6,8 +6,6 @@ export class LinearRegression {
     if (values.length === 0) {
       throw new Error('The input data must not be empty.');
     }
-
-    return this
   }
 
   public calculate () {

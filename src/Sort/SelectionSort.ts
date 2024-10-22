@@ -1,9 +1,7 @@
 export class SelectionSort {
   constructor(
     private readonly numbers: Array<number>
-  ) {
-    return this
-  }
+  ) {}
 
   public execute(): Array<number> {
     for (let i = 0; i < this.numbers.length - 1; i++) {
