@@ -1,8 +1,6 @@
-export class BubbleSort {
-  constructor (
-    private readonly numbers: Array<number>
-  ) {}
+import { Sort } from './Sort';
 
+export class BubbleSort extends Sort {
   public execute(): Array<number> {
     for (let i = 0; i < this.numbers.length - 1; i++) {
       for (let j = 0; j < this.numbers.length - i - 1; j++) {
