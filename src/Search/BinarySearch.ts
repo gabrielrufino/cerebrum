@@ -1,5 +1,8 @@
 import { Search } from './Search';
 
+/**
+ * @complexity O(log n)
+ */
 export class BinarySearch extends Search {
   public execute(): number | null {
     this.beforeExecute()

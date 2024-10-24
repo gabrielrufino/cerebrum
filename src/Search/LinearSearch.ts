@@ -1,5 +1,8 @@
 import { Search } from './Search'
 
+/**
+ * @complexity O(n)
+ */
 export class LinearSearch extends Search {
   public execute (): number | null {
     this.beforeExecute()
