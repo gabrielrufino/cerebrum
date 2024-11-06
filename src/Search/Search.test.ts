@@ -9,7 +9,7 @@ describe('Search', () => {
 })
 
 export class SearchTestsSuite {
-  static execute(Class: { new (...args: any): Search }) {
+  static execute(Class: { new (elements?: Array<number>, target?: number): Search }) {
     it('should return the index of the target when it exists in the array', () => {
         const result = new Class()
           .setElements([1, 2, 3, 4, 5])

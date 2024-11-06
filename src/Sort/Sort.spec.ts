@@ -9,7 +9,7 @@ describe('Sort', () => {
 })
 
 export class SortTestsSuite {
-  static execute(Class: { new (...args: any): Sort }) {
+  static execute(Class: { new (numbers: Array<number>): Sort }) {
     it('should sort an array of numbers in ascending order', () => {
       const unsorted = [64, 25, 12, 22, 11];
       const sorted = [11, 12, 22, 25, 64];
