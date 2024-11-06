@@ -1,5 +1,8 @@
 import { Sort } from './Sort';
 
+/**
+ * @complexity O(n^2)
+ */
 export class SelectionSort extends Sort {
   public execute(): Array<number> {
     for (let i = 0; i < this.numbers.length - 1; i++) {
