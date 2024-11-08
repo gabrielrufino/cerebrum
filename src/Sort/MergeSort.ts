@@ -14,7 +14,7 @@ export class MergeSort extends Sort {
   }
 
   private merge(left: number[], right: number[]): number[] {
-    let result: number[] = []
+    const result: number[] = []
 
     let leftIndex = 0
     let rightIndex = 0
