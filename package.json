@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/cerebrum",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "Algorithms made in TypeScript",
   "main": "dist/index.js",
   "type": "module",

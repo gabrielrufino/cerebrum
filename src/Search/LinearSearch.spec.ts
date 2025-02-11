@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { LinearSearch } from './LinearSearch'
-import { SearchTestsSuite } from './Search.test'
+import { SearchTestsSuite } from './Search.spec'
 
 describe('LinearSearch', () => {
   SearchTestsSuite.execute(LinearSearch)
