@@ -17,12 +17,12 @@
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@antfu/eslint-config": "^4.13.1",
+    "@antfu/eslint-config": "^4.14.1",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@faker-js/faker": "^8.4.1",
-    "@vitest/coverage-v8": "^3.1.4",
-    "eslint": "^9.27.0",
+    "@vitest/coverage-v8": "^3.2.3",
+    "eslint": "^9.29.0",
     "husky": "^9.1.7",
     "typescript": "^5.8.3",
     "vitest": "^3.0.5"
