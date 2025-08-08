@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/cerebrum",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Algorithms made in TypeScript",
   "main": "dist/index.js",
   "type": "module",
@@ -17,14 +17,14 @@
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@antfu/eslint-config": "^4.16.2",
+    "@antfu/eslint-config": "^4.19.0",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
     "@faker-js/faker": "^8.4.1",
     "@vitest/coverage-v8": "^3.2.4",
-    "eslint": "^9.30.1",
+    "eslint": "^9.32.0",
     "husky": "^9.1.7",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.2",
     "vitest": "^3.0.5"
   },
   "funding": [
