@@ -17,15 +17,15 @@
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "license": "UNLICENSED",
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0",
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
-    "@faker-js/faker": "^8.4.1",
-    "@vitest/coverage-v8": "^3.2.4",
+    "@antfu/eslint-config": "^6.7.3",
+    "@commitlint/cli": "^20.3.0",
+    "@commitlint/config-conventional": "^20.3.0",
+    "@faker-js/faker": "^10.1.0",
+    "@vitest/coverage-v8": "^4.0.16",
     "eslint": "^9.39.2",
     "husky": "^9.1.7",
     "typescript": "^5.9.3",
-    "vitest": "^3.0.5"
+    "vitest": "^4.0.16"
   },
   "funding": [
     {
